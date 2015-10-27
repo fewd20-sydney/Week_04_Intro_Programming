@@ -1,0 +1,209 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-family: 'Open Sans', sans-serif;
+     font-size: 12px;
+     line-height: 1.4;
+     text-align: center;
+     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+     background-size: cover;
+     background-repeat: repeat-x;
+     background-attachment: fixed;
+     background-position: 1% 100%;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 100%;
+  margin: 0 auto;
+  height: 500px;
+
+}
+
+header {
+  padding: 150px 20px;
+  display: block;
+  height: 580px;
+}
+
+footer {
+  padding: 45px 20px;
+  display: block;
+}
+section {
+  display: block;
+  padding: 20px 20px;
+  width: 100%;
+}
+footer {
+  padding: 20px 20px;
+  display: block;
+  background-color: #121212;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+h1 {
+  font-weight: bolder;
+  font-size: 24px;
+  color: #fff;
+  display: block;
+  width: 100%;
+  padding: 0 20%;
+  text-align: left;
+}
+h1.center-text {
+  display: block;
+  width: 100%;
+  text-align: none;
+  margin: 0 auto;
+}
+h2 {
+  font-weight: 500;
+  font-size: 24px;
+  color: #fff;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+h3 {
+  color: #033048;
+  font-weight: 700;
+  font-size: 20px;
+  display: block;
+  width: 100%;
+  padding: 0 20%;
+  text-align: left;
+}
+h4 {
+  font-size: 9px;
+  font-weight: 500;
+  color: white;
+}
+p {
+  font-size: 13;
+  color: #606161;
+  font-weight: lighter;
+  padding: 5px 20%;
+  display: block;
+}
+ul {
+  font-size: 13;
+  color: #606161;
+  font-weight: lighter;
+  padding: 7px 20%;
+  text-indent: 20px;
+  display: block;
+  text-align: left;
+}
+.color-yellow {
+  color: #f9e42e;
+}
+.button-yellow {
+  color: #033048;
+  font-weight: bolder;
+  font-size: 14px;
+  background-color: #f9e42e; 
+  border-radius: 5px;
+  margin: 20px auto 150px auto;
+  padding: 5px;
+  width: 25%;
+  display: block;
+}
+.button-navy {
+  color: #fff;
+  font-weight: bolder;
+  font-size: 12px;
+  background-color: #033048; 
+  border-radius: 5px;
+  margin: 15px auto 15px auto;
+  padding: 5px;
+  width: 25%;
+}
+section.imageground p{
+  margin: 10px 10px;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  display: block;
+}
+section blockquote {
+  color: white;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 18px;
+  padding: 0px 0px, 0px, 0px;
+  margin: 10px 10px;
+}
+section.lightground {
+  background-color: #f0efef;
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+section.yellowground {
+  background-color: #f9e42e;
+  padding: 2px 0px;
+  display: block;
+  width: 100%;
+  margin: 0px auto;
+}
+img {
+  height: 20px;
+  display: inline-block;
+  margin: 13px;
+}
+
+
